@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVC Lecture</title>
+    <link rel="stylesheet" href="css/webslides.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main role="main">
+        <article id="webslides" class="horizontal">
+          <!-- Slide 1 -->
+          <section> 
+            <span class="background" style="background-image:url('images/slide1.jpg')"></span>
+            <div class="wrap">
+                <h1><strong>WHAT IS MVC?</strong></h1>
+                <p class="subtitle text-intro">by Agata Majer</p>
+                
+            </div>
+            </section>
+            <!-- Slide 2 -->
+            <section>
+                <span class="background" style="background-image:url('images/background.jpg')"></span>
+                <div class="wrap">
+                <p class="text-intro">MVC stands for: </p><br>
+                <div class="container-block">
+                   <span class="large-text"><strong>MODEL</strong></span> 
+                
+                   <span class="large-text"><strong>VIEW</strong></span> 
+               
+                   <span class="large-text"><strong>CONTROLLER</strong></span> 
+                </div>
+                <p class="text-important">MVC is a system we use to organise our files and folders in a project.<br>
+                 We group our files based on their role and usage, so we'll always know where to find a specific file. <br>
+                We keep the logic and the display separately.<br>
+            It's basically a tree of folders that we always name similarly and MVC tells us which file goes into which folder.</p>
+            </div>
+            </section>
+            <!-- Slide 3 -->
+            <section>
+                <span class="background" style="background-image:url('images/background2.jpg')"></span>
+                <div class="wrap">
+                <div class="container-block">
+                    <span class="large-text"><strong>First we need to understand how the internet works.</strong></span> 
+                    </div>
+                    </div>
+            </section>
+            <!-- Slide 4 -->
+            <section>
+                <span class="background" style="background-image:url('images/slide3.png')"></span>
+                
+            </section>
+            <!-- Slide 5 -->
+            <section>
+                <span class="background" style="background-image:url('images/background3.jpg')"></span>
+                <div class="wrap">
+                <p class="text-intro">When you use the internet every time you click something or go to a new website you send a request to something called server. To simply put, servers serve content to our browsers, so they get our requests and then respond by sending specific content back to us.</p> 
+                </div>
+                </section>
+                <!-- Slide 6 -->
+            <section>
+                <span class="background" style="background-image:url('images/background.jpg')"></span>
+                <div class="wrap">
+                    <p class="text-important">In order for this process to work correctly, developers use MVC architecture to connect all the necessary files, so we don't have to worry about anything while surfing the internet.<br>
+                <br>
+            <ol class="text-important">MVC is basically two things:
+                <li>LISTENING FOR REQUESTS</li>
+                <li>DECIDING HOW TO RESPOND TO THE REQUESTS</li>
+            </ol> </p> 
+            </div>
+            </section>
+            <!-- Slide 7 -->
+            <section>
+                <span class="background" style="background-image:url('images/slide7.jpeg')"></span>
+                
+            </section>
+            <!-- Slide 8 -->
+            <section>
+                <span class="background" style="background-image:url('images/background2.jpg')"></span>
+                <div class="wrap">
+                <h2>MODEL</h2>
+                <p class="text-intro">MODEL contains our app's data, which it can also change. It's the only thing that can connect to our database. It can never interact with the view.<br>
+                    Model is a set of objects allowing interaction with the database.
+                <br>
+            The files included in the model folder are our  Schemas(templates for our content written as objects), which file names always start with a capital letter and database connection file f.ex. mongoose.  </p> 
+                </div>
+            </section>
+            <!-- Slide 9 -->
+            <section>
+                <span class="background" style="background-image:url('images/background3.jpg')"></span>
+                <div class="wrap">
+                <h2>VIEW</h2>
+                <p class="text-intro">VIEW is what the users see and interact with when they go to a specific website aka the images, menus, text, buttons etc that you can see when you open a website.<br>
+                In Views folder we put our html (or any templating language file) that describes how webpages will be displayed online. <br>
+            It includes code responsible for visuals (HTML/CSS/JavaScript).</p> 
+            </div>
+            </section>
+            <!-- Slide 10 -->
+            <section>
+                <span class="background" style="background-image:url('images/background.jpg')"></span>
+                <div class="wrap">
+                <h2>CONTROLLER</h2>
+                <p class="text-intro">CONTROLLER is the middle person in MVC. It's the thing that holds the app together and can connect to the view and the model. It's the brains and the logic of an app. It's responsible for all handling, logic etc.<br>
+                It takes requests from the browser, contacts the model and takes any data that might be needed, then goes to the view to generate the website for the user to see.</p> 
+                </div>
+            </section>
+            <!-- Slide 11 -->
+            <section>
+                <span class="background" style="background-image:url('images/background2.jpg')"></span>
+                <div class="wrap">
+            <span class="large-text"><strong>MVC is like a restaurant:</strong></span> 
+            </div>
+            </section>
+            <!-- Slide 12 -->
+            <section>
+                <span class="background" style="background-image:url('images/background3.jpg')"></span>
+                <div class="wrap">
+                <p class="text-intro">In a restaurant, the Chef is the Model. It's job is to take orders (requests) from the Waiter and create some awesome food for the Waiter to deliver to the Customer. <br><br>
+                    The Waiter is the Controller. They take in orders (requests), take them back to the Chef (Model), and then deliver the proper meal to customers (Users).<br><br>
+                    The Table is the View. It just holds whatever meal the Waiter brings back from the Chef.</p> 
+                    </div>
+                </section>
+                <!-- Slide 13 -->
+            <section>
+                <span class="background" style="background-image:url('images/background.jpg')"></span>
+                <div class="wrap">
+                <h2>Why should you use MVC?</h2>
+                <ul class="text-important">
+                    <li>Makes working with others on a project together easier</li>
+                    <li>It's easier to debug and find errors</li>
+                    <li>When something breaks it doesn't break the entire project</li>
+                    <li>Interchangeability</li>
+                </ul>
+                </div>
+                </section>
+
+            <!-- Slide 14 -->
+            <section>
+                <span class="background" style="background-image:url('images/background2.jpg')"></span>
+                <div class="wrap">
+                <span class="large-text"><strong>Click the button for more info</strong></span> 
+                <p>  <br>
+                    <div class="button-container">
+                    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/MVC" class="button zoomIn">More Info</a>
+                    </div>
+                </p>
+                </div>
+            </section>
+
+
+    <script src="js/webslides.js"></script>
+    <script>
+        window.ws = new WebSlides();
+    </script>
+</body>
+</html>

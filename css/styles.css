@@ -1,0 +1,45 @@
+html{
+    font-size: 62.5%;
+    
+}
+
+body{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.wrap{
+    color: #fff;
+}
+h1{
+    font-size: 100px;
+}
+
+.subtitle{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.container-block{
+    display:flex;
+    flex-direction: row;
+    column-gap: 100px;
+    justify-content: center;
+}
+.large-text{
+    font-size: 10rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.text-intro{
+    color:#fff;
+}
+
+.text-important{
+    font-weight: 900;
+    
+}
+    
+.button-container{
+    display: flex;
+    justify-content: center;
+}
